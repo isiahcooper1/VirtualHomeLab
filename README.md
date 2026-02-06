@@ -1,18 +1,21 @@
 <h1>Virtual Home Lab</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project demonstrates the deployment of a small-scale on-premises Active Directory environment in a mixed Windows and Linux network. This lab simulates a typical SMB infrastructure and focuses on core system administration services: identity management, name resolution, IP address management, and centralized file sharing. 
+<br />
+This environment was built entirely using virtual machines and is designed to mirror how these foundational services are commonl implemented in real-world enterprise networks.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Hyper-V</b> 
+- <b></b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows Server 2022</b> (21H2)
+- <b>Windows 11</b> (21H2)
 
 <h2>Program walk-through:</h2>
 
