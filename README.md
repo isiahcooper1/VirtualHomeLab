@@ -1,8 +1,7 @@
 <h1>Virtual Home Lab</h1>
 
 <h2>Description</h2>
-This project demonstrates the deployment of a small-scale on-premises Active Directory environment in a mixed Windows and Linux network. This lab simulates a typical SMB infrastructure and focuses on core system administration services: identity management, name resolution, IP address management, and centralized file sharing. 
-<br>
+This project demonstrates the deployment of a small-scale on-premises Active Directory environment in a mixed Windows and Linux network. This lab simulates a typical SMB infrastructure and focuses on core system administration services: identity management, name resolution, IP address management, and centralized file sharing. <br>
 This environment was built entirely using virtual machines and is designed to mirror how these foundational services are commonl implemented in real-world enterprise networks.
 <br />
 
