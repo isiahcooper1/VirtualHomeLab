@@ -7,15 +7,22 @@ This environment was built entirely using virtual machines and is designed to mi
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Utilities Used</h2>
 
 - <b>Hyper-V</b> 
-- <b></b>
+- <b>Active Directory Domain Services (AD DS)</b>
+- <b>DNS Server</b>
+- <b>DHCP Server</b>
+- <b>SMB / NTFS</b>
+- <b>PowerShell</b>
+- <b>realmd /SSSD</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows Server 2022</b> (21H2)
+- <b>Windows Server 2022</b>
 - <b>Windows 11</b> (21H2)
+- <b>Ubuntu Server</b>
+- <b>Isolated Virtual Network</b>
 
 <h2>Program walk-through:</h2>
 
