@@ -2,14 +2,14 @@
 
 <h2>Description</h2>
 This project documents the deployment of a virtualized home lab simulating a small enterprise environment. 
-<br />
-<br />
+<br>
+<br>
 The objective was to design and configure core infrastructure including a Domain Controller, domain-joined client machine, DNS, and internal networking using a hypervisor.
-<br />
-<br />
+<br>
+<br>
 This lab demonstrates foundational system administration skills including server deployment, IP configuration, domain setup, and client authentication.
-<br />
-<br />
+<br>
+<br>
 
 
 <h2>Utilities Used</h2>
