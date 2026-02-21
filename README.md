@@ -1,13 +1,10 @@
 <h1>Virtual Home Lab</h1>
 
 <h2>Description</h2>
-This project documents the deployment of a virtualized home lab simulating a small enterprise environment.
-<br />
-The objective was to design and configure core infrastructure including a Domain Controller, domain-joined client machine, DNS, and internal networking using a hypervisor.
-<br />
+This project documents the deployment of a virtualized home lab simulating a small enterprise environment. <br />
+The objective was to design and configure core infrastructure including a Domain Controller, domain-joined client machine, DNS, and internal networking using a hypervisor. <br />
 This lab demonstrates foundational system administration skills including server deployment, IP configuration, domain setup, and client authentication. <br>
-<br />
-This environment was built entirely using virtual machines and is designed to mirror how these foundational services are commonly implemented in real-world enterprise networks.
+This environment was built entirely using virtual machines and is designed to mirror how these foundational services are commonly implemented in real-world enterprise networks. <br />
 <br />
 
 
