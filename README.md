@@ -31,12 +31,15 @@ This lab demonstrates foundational system administration skills including server
 
 <p align="center">
 1. Launched 3 VMs in Hyper-V - One UI-based domain controller, one server core domain controller, and one file server. <br />
+ <br>
 2. Installed Windows Server 2022 on all 3 servers. <br />
+ <br>
 3. Created an external virtual switch and configured all 3 VMs to use the same switch. <br />
 <img src="https://github.com/user-attachments/assets/32a44ab5-5728-4f4f-a383-8294ccf2c067" height="80%" width="80%" alt="Launch VMs"/>
 <br />
 <br />
 1. Configured all 3 servers to be on the same subnet. <br />
+ <br>
 2. Pointed DNS address of all servers to DC01. <br />
 <img src="https://github.com/user-attachments/assets/4af0147a-6579-4aae-8361-41b00be8e099" height="80%" width="80%" alt="Server Network"/>
 <br />
