@@ -29,7 +29,6 @@ This lab demonstrates foundational system administration skills including server
 
 <h2>Walk-through:</h2>
 <br>
-<br>
 <p align="center">
 1. Launched 3 VMs in Hyper-V - One UI-based domain controller, one server core domain controller, and one file server. <br />
  <br>
