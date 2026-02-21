@@ -27,16 +27,19 @@ This environment was built entirely using virtual machines and is designed to mi
 <h2>Walk-through:</h2>
 
 <p align="center">
-Launched 3 VMs in Hyper-V - One UI-based domain controller, one server core domain controller, and one file server. Installed Windows Server 2022 on all 3 servers. Created an external virtual switch and configured all 3 VMs to use the same switch. Configured all 3 servers to be on the same subnet. Pointed DNS address of all servers to DC01.<br/>
+1. Launched 3 VMs in Hyper-V - One UI-based domain controller, one server core domain controller, and one file server. <br />
+2. Installed Windows Server 2022 on all 3 servers. <br />
+3. Created an external virtual switch and configured all 3 VMs to use the same switch. <br />
 <img src="https://github.com/user-attachments/assets/32a44ab5-5728-4f4f-a383-8294ccf2c067" height="80%" width="80%" alt="Launch VMs"/>
+<br />
+<br />
+1. Configured all 3 servers to be on the same subnet. <br />
+2. Pointed DNS address of all servers to DC01. <br />
+<img src="https://github.com/user-attachments/assets/4af0147a-6579-4aae-8361-41b00be8e099" height="80%" width="80%" alt="Server Network"/>
 <br />
 <br />
 Installed Active Directory Domain Services on DC01 and server core. Created domain 'corp.local'. Created organizational units and user accounts. Placed user accounts in various OU's.<br/>
 <img src="https://github.com/user-attachments/assets/0f1760af-8862-4fb7-b77a-12d908b7ba56" height="80%" width="80%" alt="Active Directory Domain"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Confirm your selection:  <br/>
