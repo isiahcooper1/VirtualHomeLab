@@ -32,7 +32,7 @@ Launched 3 VMs in Hyper-V - One UI-based domain controller, one server core doma
 <br />
 <br />
 Installed Active Directory Domain Services on DC01 and server core. Created domain 'corp.local'. Created organizational units and user accounts. Placed user accounts in various OU's.<br/>
-<img src="https://github.com/user-attachments/assets/0f1760af-8862-4fb7-b77a-12d908b7ba56" />" height="70%" width="70%" alt="Active Directory Domain"/>
+<img src="https://github.com/user-attachments/assets/0f1760af-8862-4fb7-b77a-12d908b7ba56" />" height="50%" width="50%" alt="Active Directory Domain"/>
 <br />
 <br />
 Enter the number of passes: <br/>
