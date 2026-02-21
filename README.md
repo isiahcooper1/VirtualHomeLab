@@ -27,8 +27,8 @@ This environment was built entirely using virtual machines and is designed to mi
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Launched 3 VMs - One UI-based domain controller, one server core dmain controller, and one file server: <br/>
+<img src="https://github.com/user-attachments/assets/32a44ab5-5728-4f4f-a383-8294ccf2c067" height="80%" width="80%" alt="Launch VMs"/>
 <br />
 <br />
 Select the disk:  <br/>
