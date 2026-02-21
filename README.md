@@ -24,15 +24,15 @@ This environment was built entirely using virtual machines and is designed to mi
 - <b>Ubuntu Server</b>
 - <b>Isolated Virtual Network</b>
 
-<h2>Program walk-through:</h2>
+<h2>Walk-through:</h2>
 
 <p align="center">
-Launched 3 VMs - One UI-based domain controller, one server core dmain controller, and one file server: <br/>
+Launched 3 VMs in Hyper-V - One UI-based domain controller, one server core domain controller, and one file server. Installed Windows Server 2022 on all 3 servers. Created an external virtual switch and configured all 3 VMs to use the same switch. Configured all 3 servers to be on the same subnet. Pointed DNS address of all servers to DC01.<br/>
 <img src="https://github.com/user-attachments/assets/32a44ab5-5728-4f4f-a383-8294ccf2c067" height="80%" width="80%" alt="Launch VMs"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Installed Active Directory Domain Services on DC01 and server core. Created domain 'corp.local'. Created organizational units and user accounts. Placed user accounts in various OU's.<br/>
+<img src="https://github.com/user-attachments/assets/0f1760af-8862-4fb7-b77a-12d908b7ba56" />" height="80%" width="80%" alt="Active Directory Domain"/>
 <br />
 <br />
 Enter the number of passes: <br/>
