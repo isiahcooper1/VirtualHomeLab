@@ -52,7 +52,7 @@ This lab demonstrates foundational system administration skills including server
  <br>
 8. Promoted DC01 to domain controller.
  <br>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/11ee8e29-8147-4756-a59f-0c93214158ef" width="80%" alt="Active Directory"/>
 <br />
 <br />
 9. Joined WIndows 11 client to the domain.<br/>
