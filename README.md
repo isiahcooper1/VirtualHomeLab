@@ -30,7 +30,7 @@ This lab demonstrates foundational system administration skills including server
 <h2>Walk-through:</h2>
 <br>
 <p align="center">
-1. Launched 2 VMs in Hyper-V - One server and one client. <br />
+1. Launched 2 VMs in Hyper-V - One server (DC01) and one client. <br />
  <br>
 2. Installed Windows Server 2022 on server and Windows 11 on client. <br />
  <br>
@@ -38,33 +38,38 @@ This lab demonstrates foundational system administration skills including server
 <br />
 <br />
 3. Created an external virtual switch and configured both the server and the client to use the same switch. <br />
-  <br>
-4. Configured all 3 servers to be on the same subnet. <br />
  <br>
-5. Pointed DNS address of all servers to DC01. <br />
-  <br>
+4. Configured server (DC01) and client to be on the same subnet. <br />
+ <br>
+5. Pointed DNS address of client to server. <br />
+ <br>
 <img src="https://github.com/user-attachments/assets/4af0147a-6579-4aae-8361-41b00be8e099" height="80%" width="80%" alt="Server Network"/>
 <br />
 <br />
-Installed Active Directory Domain Services on DC01 and server core. Created domain 'corp.local'. Created organizational units and user accounts. Placed user accounts in various OU's.<br/>
-<img src="https://github.com/user-attachments/assets/0f1760af-8862-4fb7-b77a-12d908b7ba56" height="80%" width="80%" alt="Active Directory Domain"/>
-<br />
-<br />
-Confirm your selection:  <br/>
+6. Installed Active Directory Domain Services and DNS roles on server (DC01). 
+ <br>
+7. Created domain 'corp.local'.
+ <br>
+8. Promoted DC01 to domain controller.
+ <br>
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
+9. Joined WIndows 11 client to the domain.<br/>
+ <br>
+<img src="https://github.com/user-attachments/assets/0f1760af-8862-4fb7-b77a-12d908b7ba56" height="80%" width="80%" alt="Active Directory Domain"/>
+<br />
+<br />
+10. Configured an Active Directory-integrated Forward Lookup Zone to provide authoritative internal DNS resolution for the domain.  <br/>
+ <br>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
+11. Implemented static IP configuration (192.168.1.250) for the DNS server and configured domain-joined clients to use the internal DNS server for proper authentication and Group Policy processing. <br/>
+  <br>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <!--
  ```diff
