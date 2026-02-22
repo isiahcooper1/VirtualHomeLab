@@ -60,9 +60,11 @@ This lab demonstrates foundational system administration skills including server
 <img src="https://github.com/user-attachments/assets/0f1760af-8862-4fb7-b77a-12d908b7ba56" height="80%" width="80%" alt="Active Directory Domain"/>
 <br />
 <br />
-10. Configured an Active Directory-integrated Forward Lookup Zone to provide authoritative internal DNS resolution for the domain.  <br/>
+10. Configured Active Directory-integrated Forward and Reverse Lookup Zones to provide authoritative internal DNS resolution for the domain.  <br/>
  <br>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/9c2c1acf-352d-4513-8b5f-b728289683d3"  height="80%" width="80%" alt="DNS Forward Lookup"/>
+ <br>
+<img src="https://github.com/user-attachments/assets/938185e3-7ced-4391-8919-b51d22e797ba" height="80%" width="80%" alt="DNS reverse Lookup"/>
 <br />
 <br />
 11. Implemented static IP configuration (192.168.1.250) for the DNS server and configured domain-joined clients to use the internal DNS server for proper authentication and Group Policy processing. <br/>
