@@ -69,7 +69,7 @@ This lab demonstrates foundational system administration skills including server
 <br />
 11. Implemented static IP configuration (192.168.1.250) for the DNS server and configured domain-joined clients to use the internal DNS server for proper authentication and Group Policy processing. <br/>
   <br>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/3abf43e3-26fe-427a-86aa-e08b73a43298" height="80%" width="80%" alt="Static IPv4"/>
 <br />
 <br />
 
