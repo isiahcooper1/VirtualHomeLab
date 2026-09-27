@@ -48,7 +48,7 @@ This lab demonstrates foundational system administration skills including server
 <br />
 6. Installed Active Directory Domain Services and DNS roles on server (DC01). 
  <br>
-7. Created domain 'corp.local'.
+7. Created domain 'corp.lab'.
  <br>
 8. Promoted DC01 to domain controller.
  <br>
