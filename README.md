@@ -23,7 +23,7 @@ This lab demonstrates foundational system administration skills including server
 <h2>Environments Used </h2>
 
 - <b>Windows Server 2022</b>
-- <b>Windows 11</b> (21H2)
+- <b>Windows 11</b>
 - <b>External Virtual Network</b>
 - <b>Static IP configuration for server infrastructure</b>
 
