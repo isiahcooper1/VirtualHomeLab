@@ -30,23 +30,23 @@ This lab demonstrates foundational system administration skills including server
 <h2>Walk-through:</h2>
 <br>
 <p align="center">
-1. Launched 2 VMs in Hyper-V - One server (DC01) and one client. <br />
+1. Launched 2 VMs in Hyper-V - One server (DC01) and one client (WS01). <br />
  <br>
-2. Installed Windows Server 2022 on server and Windows 11 on client. <br />
+2. Installed Windows Server 2022 on the server and Windows 11 on the client. <br />
  <br>
 <img src="https://github.com/user-attachments/assets/32a44ab5-5728-4f4f-a383-8294ccf2c067" height="80%" width="80%" alt="Launch VMs"/>
 <br />
 <br />
 3. Created an external virtual switch and configured both the server and the client to use the same switch. <br />
  <br>
-4. Configured server (DC01) and client to be on the same subnet. <br />
+4. Configured the server and the client to be on the same subnet. <br />
  <br>
 5. Pointed DNS address of client to server. <br />
  <br>
 <img src="https://github.com/user-attachments/assets/4af0147a-6579-4aae-8361-41b00be8e099" height="80%" width="80%" alt="Server Network"/>
 <br />
 <br />
-6. Installed Active Directory Domain Services and DNS roles on server (DC01). 
+6. Installed Active Directory Domain Services and DNS roles on the server. 
  <br>
 7. Created domain 'corp.lab'.
  <br>
