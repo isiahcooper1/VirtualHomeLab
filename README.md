@@ -56,8 +56,6 @@ This lab demonstrates foundational system administration skills including server
 <br />
 <br />
 9. Joined WIndows 11 client to the domain.<br/>
- <br>
-<img src="https://github.com/user-attachments/assets/0f1760af-8862-4fb7-b77a-12d908b7ba56" height="80%" width="80%" alt="Active Directory Domain"/>
 <br />
 <br />
 10. Configured Active Directory-integrated Forward and Reverse Lookup Zones to provide authoritative internal DNS resolution for the domain.  <br/>
